@@ -1,0 +1,46 @@
+*{
+    font-family: '华文细黑';
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(44, 78, 139);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+svg{
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0px 3px 15px rgb(22, 42, 79);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.dot:hover{
+    stroke:rgb(22, 42, 79);
+    stroke-width: 2px;
+}
+
+#title{
+    color: white;
+    font-size: 30px;
+}
+
+#tooltip{
+    opacity:0.8;
+    position: absolute;
+    font-size:10px;
+    background-color: rgb(209, 209, 209);
+    padding:8px;
+    border-radius:5px;
+}
+
+#legend{
+    color: white;
+}
