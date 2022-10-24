@@ -1,0 +1,35 @@
+*{
+    font-family: '华文细黑';
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(44, 78, 139);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+#title{
+    color: white;
+    margin: 50px;
+}
+
+#links{
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-left: 50px;
+    width: 300px;
+    background-color: rgb(77, 113, 168);
+}
+
+#links a{
+    color: white;
+    margin:20px;
+}
