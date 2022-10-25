@@ -1,35 +1,58 @@
-*{
-    font-family: '华文细黑';
-}
-
-html{
+html, body{
     height: 100%;
+    font-family: '华文细黑';
 }
 
 body{
     background-color: rgb(44, 78, 139);
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:100%;
+    height: 100%;
 }
 
 #title{
     color: white;
-    margin: 50px;
+    font-size: 30px;
 }
 
-#links{
-    display:flex;
+#description{
+    color:white;
+    display: flex;
     flex-direction: column;
-    border-radius: 10px;
-    padding-left: 50px;
-    width: 300px;
-    background-color: rgb(77, 113, 168);
+    justify-content: center;
+    align-items: center;
 }
 
-#links a{
+a{
     color: white;
-    margin:20px;
+}
+
+#canvas{
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0px 3px 15px rgb(22, 42, 79);
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+
+#tooltip{
+    visibility: hidden;
+    position: absolute;
+    background-color: wheat;
+    opacity: .8;
+}
+
+.county:hover{
+    stroke: gray;
+    stroke-width: 2;
+}
+
+#legend{
+    font-size: 12px;
+    fill: white;
+    width: 400px;
 }
