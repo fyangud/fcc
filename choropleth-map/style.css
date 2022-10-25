@@ -19,6 +19,14 @@ body{
 
 #description{
     color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
 }
 
 #canvas{
