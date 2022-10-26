@@ -27,9 +27,11 @@ body{
     padding-left: 50px;
     width: 300px;
     background-color: rgb(77, 113, 168);
+    box-shadow: 0px 3px 15px rgb(22, 42, 79);
 }
 
 #links a{
     color: white;
     margin:20px;
+    text-decoration: none;
 }
